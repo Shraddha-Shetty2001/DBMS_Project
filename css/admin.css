@@ -1,0 +1,7 @@
+.btn-default{
+    border-color:#25e710;
+    border-style: solid;
+}
+.btn-default:hover{
+    background-color: #24ee0e69;
+}
