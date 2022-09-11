@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="csstoall.css">
+    <style>
+      li{
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+    </style>
+    <title>Lease Details Form</title>
+</head>
+<body>
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="adminlogin.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Add Lease Details</li>
+    </ol>
+  </nav>
+    
+
+     <div class="container">
+    <form action="lease-details.php" method="post">
+
+    <label for="lease_id">Lease id</label>
+    <input type="text" name="lease_id" id="lease_id" required>
+    <br><br>
+
+    <label for="resident_id">Resident id</label>
+    <input type="text" name="resident_id" id="resident_id" required>
+    <br><br>
+    
+
+
+    <label for="lease_term">Lease term</label>
+    <input type="years" name="lease_term" id="lease_term" required>
+    <br><br>
+
+
+ 
+     <label for="lease_sdate">Lease start date</label>
+     <input type="date" name="lease_sdate" id="lease_sdate" required>
+     <br><br>
+ 
+ 
+      <label for="lease_edate">Lease end date</label>
+      <input type="date" name="lease_edate" id="lease_edate" required>
+      <br><br>
+
+      <label for="lease_payid">Lease payment id</label>
+      <input type="text" name="lease_payid" id="lease_payid" required>
+      <br><br>
+       
+
+      <label for="payment_date">Lease paymnent date</label>
+      <input type="date" name="payment_date" id="payment_date" required>
+      <br><br>
+  
+  
+      <label for="payment_amt">Lease payment amount</label>
+      <input type="number" name="payment_amt" id="payment_amt">
+      <br><br>
+ 
+      <button type="submit"  class="btn btn-primary">Submit</button>
+  
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+     </div>
+
+
+    
+     
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

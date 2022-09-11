@@ -1,0 +1,91 @@
+<html>
+    <head>
+    <title>Resident Details </title>
+    <link rel="stylesheet" href="addresident.css">
+  <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"-->
+</head>
+    <body>
+
+      <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+        <div class="container">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <!--a class="navbar-brand text-brand" href="i.html"><span class="color-b"></span></!--a-->
+    
+          <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+            <ul class="navbar-nav">
+    
+              <li class="nav-item">
+                <a class="nav-link active" href="i.html">Home</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link " href="addres.html">Add resident</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link " href="property-grid.html">Property</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link " href="addprop.html">Add property</a>
+              </li>
+    
+
+        <div class="form-body">
+            <div class="row">
+                <div class="form-holder">
+                    <div class="form-content">
+                        <div class="form-items">
+                          <form class="requires-validation" novalidate>
+    
+                            <div class="col-md-12">
+
+
+        <center class="containers">
+        <form method="post" action="form.php"  class="requires-validation" novalidate>
+            <div>
+            <label for="name">Name:</label>
+          <input type="text"  id="resname" name="resname" required></div>
+          <br><br>
+          <div>
+          <label for="mail">Email:</label>
+          <input type="text" id="email" name="email"  required></div>
+          <br><br>
+          <label for="number">Number:</label>
+          <input type="text"  id="number" name="number" pattern="[0-9]+" required>
+          <br><br>
+          <label for="leasestart">Lease Start:</label>
+          <input type="date"  id="leasestart" name="leasestart" required>
+          <br><br>
+          <label for="leaseend">Lease end:</label>
+          <input type="date"  id="leaseend" name="leaseend"  required>
+          <br><br>
+          <label for="term">Lease term:</label>
+          <input type="text"  id="term" name="term"  required>
+          <br><br>
+          <label for="amt">Securty Deposite Amount:</label>
+          <input type="text"  id="amt" name="amt" pattern="[0-9]+" required>
+          <br><br>
+          <label for="payid">Lease payment id:</label>
+          <input type="text"  id="payid" name="payid" pattern="[0-9]+"  required>
+          <br><br>
+          <label for="paydate">Payment details</label>
+          <input type="date" id="paydate" name="paydate" required>
+          <br><br>
+          <label for="payamt">Payment Amount</label>
+          <input type="text" id="payamt" name="payamt" pattern="[0-9]+" required>
+          <br><br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form></center>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
